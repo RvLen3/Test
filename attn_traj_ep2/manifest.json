@@ -1,0 +1,19 @@
+{
+  "source": "/media1/openpi/pi_checkpoints/corm_in_plate_2026_9_9/real/20260909/real_piper_20260909T150424_0001/trajectory.hdf5",
+  "checkpoint": "/media1/openpi/pi_checkpoints/corn_lora_v1/8999",
+  "n_frames": 345,
+  "attention_shape": [
+    18,
+    8,
+    10,
+    978
+  ],
+  "attention_layout": "[layer, head, action_query, key]",
+  "step": 0,
+  "steps": 10,
+  "seed": 0,
+  "prompt": "pick up the corn and put it on the plate",
+  "fps": 10,
+  "cameras_mp4": "/media1/openpi/pi_checkpoints/attn_traj_ep2/cameras.mp4",
+  "overlay_mp4": "/media1/openpi/pi_checkpoints/attn_traj_ep2/attention_overlay.mp4"
+}
